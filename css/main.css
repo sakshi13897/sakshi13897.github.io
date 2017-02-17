@@ -1652,7 +1652,7 @@ header .header-logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: .2;
+	opacity: 0;
 	background: -moz-linear-gradient(left, black 0%, black 20%, transparent 100%);  /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, black 0%, black 20%, transparent 100%);  /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, black 0%, black 20%, transparent 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -1665,7 +1665,7 @@ header .header-logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: .6;
+	opacity: .4;
 	background-color: #000000;
 }
 
