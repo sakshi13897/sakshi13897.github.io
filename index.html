@@ -1,504 +1,457 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
-   <!--- basic page needs
+   <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
 	<title>Sakshi Jain</title>
-	<meta name="description" content="">  
+	<meta name="description" content="">
 	<meta name="author" content="">
 
-   <!-- mobile specific metas
+   <!-- Mobile Specific Metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
- 	<!-- CSS
-   ================================================== -->
-   <link rel="stylesheet" href="css/base.css">
-   <link rel="stylesheet" href="css/vendor.css">  
-   <link rel="stylesheet" href="css/main.css">  
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
 
-   <!-- script
+   <!-- Script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
 
-   <!-- favicons
+   <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
+<body>
 
-<body id="top">
-
-	<!-- header 
+   <!-- Header
    ================================================== -->
-   <header> 
+   <header id="home">
 
-   	<div class="header-logo">
-	      <a href="index.html">Menu</a>
-	   </div> 
+      <nav id="nav-wrap">
 
-		<a id="header-menu-trigger" href="#0">
-		 	<span class="header-menu-text">Menu</span>
-		  	<span class="header-menu-icon"></span>
-		</a> 
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-		<nav id="menu-nav-wrap">
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
 
-			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
+      </nav> <!-- end #nav-wrap -->
 
-	   	<h3>Sakshi Jain</h3>  
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Sakshi Jain.</h1>
+		<h3>I'm a <span>software engineer</span> in making, have a firm hold over languages like <br><span>C</span>, <span>C++</span>, 			knowledge of <span>operating systems</span>, <span>DBMS</span> and <span>data structures</span>.</h3> 
+	    	<h3>Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            	and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/ShWeEtSaKsHi?ref=br_rs"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/saaaaakshi"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://plus.google.com/u/0/105948662408477774898"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/sakshi-jain-4a942b12b/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/sakshi13897/"><i class="fa fa-instagram"></i></a></li>
+	       <li><a href="http://github.com/sakshi13897"><i class="fa fa-github"></i></a></li>
+         </div>
+      </div>
 
-			<ul class="nav-list">
-				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
-				<li><a class="smoothscroll" href="#about" title="">About</a></li>
-				<li><a class="smoothscroll" href="#skills" title="">Skills</a></li>
-				<li><a class="smoothscroll" href="#credentials" title="">Experience</a></li>
-				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
-				<li><a class="smoothscroll" href="#stats" title="">Stats</a></li>				
-				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>						
-			</ul>	
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
 
-			<ul class="header-social-list">
-	         <li>
-	         	<a href="https://www.facebook.com/ShWeEtSaKsHi?ref=br_rs"><i class="fa fa-facebook-square"></i></a>
-	         </li>
-	         <li>
-	         	<a href="https://twitter.com/saaaaakshi"><i class="fa fa-twitter"></i></a>
-	         </li>
-   
-	         <li>
-	         	<a href="https://www.linkedin.com/in/sakshi-jain-4a942b12b/"><i class="fa fa-linkedin"></i></a>
-	         </li>
-	         <li>
-	         	<a href="https://www.instagram.com/sakshi13897/"><i class="fa fa-instagram"></i></a>
-	         </li>
-	      </ul>		
-
-		</nav>  <!-- end #menu-nav-wrap -->
-
-	</header> <!-- end header -->  
+   </header> <!-- Header End -->
 
 
-   <!-- home
-   ================================================== -->
-   <section id="home">
-
-   	<div class="overlay"></div><div class="gradient-overlay"></div>
-
-   	<div class="home-content-table">		   
-
-		   <div class="home-content-tablecell">
-		   	<div class="row">
-		   		<div class="col-twelve">		   			
-			  			<div class="home-bottom-text">
- 
-			  				<h3 class="animate-intro">Hey, Guys !</h3>
-				  			<h1 class="animate-intro">
-							I am Sakshi Jain. <br>
-							A software engineer in making.<br> 
-				  			</h1>	
-				  			<h3 class="animate-intro" style="color:#ffffff;">Firm hold over languages like C, C++ and knowledge of operating systems,DBMS and data structures.</h3>
-
-							<ul class="home-section-links">
-								<li class="animate-intro">More <a href="#about" class="smoothscroll">About Me</a></li>
-
-								
-
-								<li class="animate-intro">View <a href="http://github.com/sakshi13897">
-
-									Github </a></li>
-								<li class="animate-intro">View <a href="#portfolio" class="smoothscroll">My Works</a></li>
-								<!-- <li class="animate-intro">Contact <a href="#contact" class="smoothscroll">By Email</a></li>	 -->							
-							</ul>
-
-			  			</div> <!-- end home-bottom-text -->
-			   	</div> <!-- end col-twelve --> 
-		   	</div> <!-- end row --> 
-		   </div> <!-- end home-content-tablecell --> 		   
-		</div> <!-- end home-content-table -->
-
-		<a href="#about" class="scroll-icon smoothscroll">		
-		   <span class="icon-DownArrow"></span>
-		</a>	
-   
-   </section> <!-- end home -->
-
-
-   <!-- about
+   <!-- About Section
    ================================================== -->
    <section id="about">
 
-   	<div class="about-profile-bg"></div>
+      <div class="row">
 
-   	<div class="about-wrap">
+         <div class="three columns">
 
-   		<div class="about-profile">
+            <img class="profile-pic"  src="images/pro.jpg" alt="" />
 
-   			<div class="about-profile-bg"></div>
+         </div>
 
-				<div class="intro">
-					<h3 class="animate-this">About</h3>
-	   			<h1 class="animate-this">More About Me.</h1>
+         <div class="nine columns main-col">
 
-	   			<p class="lead animate-this">A third year student, currently pursuing Btech in Information Technology (IT) at Delhi Technological University(DTU) formely known as Delhi College of Engineering (DCE) ,ever ready for challenges !</p>					
-				</div>   		
+            <h2>About Me</h2>
 
-   			<p class="animate-this">
-   			
-   			</p>
+            <p>A third year student, currently pursuing Btech in Information Technology (IT) at Delhi Technological University(DTU) formely 			known as Delhi College of Engineering (DCE) ,ever ready for challenges !<br>I am a newbie as a backend developer and am really 			looking forward to learn and get acquainted to the latest tech.         </p>
 
-   			<p class="animate-this">I am a newbie as a backend developer and am really looking forward to learn and get acquainted to the latest tech.</p>
+            <div class="row">
 
-   			<p>
-   				<a href="#" class="button full-width animate-this">Contact Me</a>
-   				<a href="https://drive.google.com/file/d/0B0gJQDEWYSEDSkdRMHAyT0V3T1c3TmU5MGtXV2dHanNWX2N3/view?usp=sharing" class="button button-primary full-width animate-this">Download CV</a>
-   			</p>  			
+               <div class="columns contact-details">
 
-   		</div> <!-- end about-profile  -->
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Sakshi Jain</span><br>
+						   <span>Vivek Vihar,New Delhi<br>
+						         Delhi-110095, India
+                     </span><br>
+						   <span>9711508825</span><br>
+                     <span>sakshijain908@gmail.com</span>
+					   </p>
 
-   		<div class="about-services">
+               </div>
 
-				<div class="intro">
-	   			<h3 class="animate-this">Services</h3>
-	   			<h1 class="animate-this">What I Do.</h1>
+               <div class="columns download">
+                  <p>
+                     <a href="https://drive.google.com/file/d/0B0gJQDEWYSEDSkdRMHAyT0V3T1c3TmU5MGtXV2dHanNWX2N3/view?usp=sharing" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
 
-	   			
-   			</div>
+            </div> <!-- end row -->
 
-   			<ul class="services">
-   				<li class="item-branding animate-this">
-   					<div class="icon-wrap">
-   						<i class="icon-RegisteredTrademark"></i>
-   					</div>
-   					<div class="service-item">
-   						<h4>Web Development</h4>
-   						<p>
-   							{ <br>
-	   				"Building backend systems using Django- A Framework based on Python"<br>}
-   						</p>
-   					</div>   					
-   				</li>
-   				<li class="item-photography animate-this">
-   					<div class="icon-wrap">
-   						<i class="icon-Picture"></i>
-   					</div>
-   					<div class="service-item">
-   						<h4>Data structure algorithms</h4>
-   						<p >
-							{ <br>
-					"Building logics for solving different algorithmic problems and arriving on best possible solutions."<br>}
-						</p>
-   					</div>   					
-   				</li>
-   				
-   			</ul>   			
+         </div> <!-- end .main-col -->
 
-   		</div> <!-- end about-services  -->   		
+      </div>
 
-   	</div> <!-- end about-wrap  -->
-
-   </section> <!-- end about -->
+   </section> <!-- About Section End-->
 
 
-   <!-- about
+   <!-- Resume Section
    ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Delhi Technological University (DTU)</h3>
+                  <p class="info">Bachelors of technology in <span>Information Technology (IT)</span> <span>&bull;</span> <em class="date">August 2015 - Present</em></p>
+
+                  <p>
+		  It is one of the oldest engineering colleges in India and Delhi's first engineering college.It offers courses towards 		  Bachelor of Technology (B.Tech), Master of Technology (M.Tech), Doctor of Philosophy (Ph.D.) and Master of Business 			  Administration (M.B.A) and contains fourteen academic departments with a strong emphasis on scientific and technological 			  education and research.Among engineering colleges, Delhi Technological University ranked 14 by Outlook India in 2017 and 39 			  by the National Institutional Ranking Framework in 2017.It was also ranked 10 by The Week in 2017.<br>
+		  </p>
+		  <p class="info">Current aggregate - 8.77 CGPA 
+		  </p>
+		<br>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Coding Ninjas</h3>
+                  <p class="info">Inception ,<span>C++ language course</span> <span>&bull;</span> <em class="date">December 2016</em></p>
+
+                  <p>
+                  C++ is an Object Oriented Programming Language that is powerful, efficient and compact. It includes concepts like 			  Polymorphism, Dynamic Binding, Data hiding, Operator Encapsulation and Inheritance C++ is an updated version of the popular C 		  language. It's enhanced to be object-oriented and functions as a high-level computer programming language. This course 			  basically helped me to build my programming fundamentals and enhanced my logic forming abilities.  
+
+               </div>
+
+            </div> <!-- item end -->
+	    
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>DAV Public School, Sreshtha Vihar</h3>
+                  <p class="info">Schooling <span>&bull;</span> <em class="date">till 2015</em></p>
+
+                  <p>
+		  The school’s infrastructure has been structured to engineer holistic development of a child. DAV Public School, Sreshtha 			  Vihar, has boldly stepped into its adulthood and has also kept pace in terms with its reputation and achievements in every 			  field. It has kept up its name of being a Sreshtha. 
+                  </p>
+		  <p class="info">10th class (CBSE boards) - 10 CGPA<br>12th class (CBSE boards) - 96.2%</span>
+		  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>I am a software developer, currently trying my hands on web developement , learning backend developement .
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   	
+                  				<li><span class="bar-expand illustrator"></span><em>OS</em></li>
+						<li><span class="bar-expand wordpress"></span><em>DBMS</em></li>
+						<li><span class="bar-expand css"></span><em>Data structures</em></li>
+						<li><span class="bar-expand html5"></span><em>C, C++</em></li>
+        				        <li><span class="bar-expand photoshop"></span><em>HTML5</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
    
-
-
-   <!-- credentials
+   <!-- Call-To-Action Section
    ================================================== -->
-   <section id="credentials">
+<!--   
+	<section id="call-to-action">
 
-   	<div class="row narrow section-intro with-bottom-sep">
-   		<div class="col-twelve">
-   			<h3 class="animate-this">Career and Education</h3>
-	   		<h1 class="animate-this">More of My Credentials.</h1>  			
-	   		
-	   		   			
-   		</div>   		
-   	</div> <!-- end section-intro -->
+      <div class="row">
 
-		<div class="row wide credentials-content">
+         <div class="two columns header-col">
 
-			<div class="col-six tab-full left">
+            <h1><span>Get Hosting.</span></h1>
 
-				<h2 class="animate-this">Experience</h2>
+         </div>
 
-	   		<!--<div class="timeline-wrap">
+         <div class="seven columns">
 
-   				
-	   			<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe">December 2016 - Jan 2017</p>
-	   					<h3>Trion Technologies</h3>
-	   					<h4>Software Developer Intern</h4>	   					
-	   				</div>
-	   				<div class="timeline-content">	   					
-	   					<p>Developed android application utilising custom natural language processing api made on python on similar lines to IBM's Watson api</p>
-	   				</div>
-	   			</div> <!-- end timeline-block -->
+            <h2><span class="lead">Strengths </h2>
+            <p><span class="lead">&bull;Determined and hard working.<br>&bull;Punctual and strong time management skills.<br>&bull;Critical thinking. </span></p>
 
-<!--
-   			</div> <!-- end timeline-wrap -->	   		
-	<!--   		
-	   	</div> <!-- end col-six -->
-	   	<div class="col-six tab-full right">
+         </div>
 
-	   		<h2 class="animate-this">Education</h2>
-
-				<div class="timeline-wrap">
-
-   				<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe">August 2015 - Present</p>
-	   					<h3>Delhi Technological University</h3>
-	   					<h4>B.Tech(Information Technology)</h4>	   					
-	   				</div>
-	   			</div> <!-- end timeline-block -->	
-
-		</div> <!-- end row wide -->    	  	
-
-   </section> <!-- end credentials -->
-   
-
-	<!-- portfolio
-   ================================================== 
-   <section id="portfolio">
-
-   	<div class="row narrow section-intro with-bottom-sep">
-   		<div class="col-twelve">
-   			<h3 class="animate-this">Portfolio</h3>
-	   		<h1 class="animate-this">See My Latest Projects.</h1>  			
-	   		
-	   		<p class="lead animate-this"></p>	   			
-   		</div>   		
-   	</div> <!-- end row section-intro -->
-
-   <!--	<div class="row portfolio-content">
-   		<div class="col-twelve">
-   			<div id="folio-wrap" class="bricks-wrapper">					
-
-   				<div class="brick folio-item">
-	               <div class=" animate-this"  > 	
-	                  <a href="https://github.com/Orient-codebit">
-	                  	<img src="images/portfolio/orientlogo.jpg" alt="orient">	                     
-	                                                             
-	                  </a>
-	                  
-	               </div> <!-- end item-wrap -->
-						
-	      <!--  		</div> <!-- end folio-item -->
-	<!--        		<div class="brick folio-item">
-	               <div class=" animate-this" > 	
-	                  <a href="http://github.com/collegefeeds">
-	                  	<img src="images/portfolio/collegefeed.png" alt="collegefeed">	                     
-	                                                             
-	                  </a>
-	                  
-	               </div> <!-- end item-wrap -->
-
-	<!--                            
-	        		</div> <!-- end folio-item -->
-
-	<!--    		
-   			</div> <!-- end folio-wrap -->
-   	<!--	</div> <!-- end twelve -->
-   	
-<!--
-	</div> <!-- end portfolio-content -->   	
-<!--
-   </section>  <!-- end portfolio -->
+         <div class="three columns action">
 
 
-	<!-- stats
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
    ================================================== -->
-<!--   <section id="stats">
+   <section id="testimonials">
 
-		<div class="row">
-			<div class="col-twelve">
-				<div class="block-1-4 block-tab-1-2 block-mob-full stats-list">
+      <div class="text-container">
 
-					<div class="bgrid stat">
-						<div class="icon-part">
-							<i class="icon-Briefcase"></i>
-						</div>
-						<h5 class="stat-title">
-							Projects Completed
-						</h5>
-						<h3 class="stat-count">2</h3>
-					</div> <!-- end stat -->					
+         <div class="row">
 
-	<!--				<div class="bgrid stat">
-						<div class="icon-part">
-							<i class="icon-AddressBook"></i>
-						</div>
-						<h5 class="stat-title">
-							Happy Clients
-						</h5>
-						<h3 class="stat-count">1500</h3>
-					</div> <!-- end stat -->
+            <div class="two columns header-col">
 
-	<!--				<div class="bgrid stat">
-						<div class="icon-part">
-							<i class="icon-Diploma1"></i>
-						</div>
-						<h5 class="stat-title">
-							Awards Received
-						</h5>
-						<h3 class="stat-count">1</h3>
-					</div> <!-- end stat -->									
+               <h1><span>Client Testimonials</span></h1>
 
-	<!--				<div class="bgrid stat">
-						<div class="icon-part">
-							<i class="icon-Idea"></i>
-						</div>
-						<h5 class="stat-title">
-							Crazy Ideas
-						</h5>
-						<h3 class="stat-count">100000</h3>
-					</div> <!-- end stat -->
-	<!--				
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>The best way to predict the future is to invent it. 
+                           </p>
+                           <cite>Alan Kay</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>Once a new technology rolls over you, if you're not part of the streamroller, you are part of the road.
+                           </p>
+                           <cite>Stewart Brand</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
 		
-			</div> <!-- end stats-list -->
-	<!--			</div> <!-- end col-twelve -->
-		
-	<!--		</div> <!-- end row -->
-<!--
-   </section> <!-- end stats -->
+                     <li>
+                        <blockquote>
+                           <p>Design is not just what it looks like or feels like. Design is how it works.
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
 
 
-	<!-- contact
+   <!-- Contact Section
    ================================================== -->
    <section id="contact">
 
-      <div class="overlay"></div>
+         <div class="row section-head">
 
-		<div class="row narrow section-intro">
-   		<div class="col-twelve">
-   			<h3 class="animate-this">Contact</h3>
+            <div class="two columns header-col">
 
-   			<p class="lead animate-this"></p>
-   		</div> 
-   	</div> <!-- end section-intro -->
+               <h1><span>Get In Touch.</span></h1>
 
-   	<div class="row contact-form">
-   		<div class="col-twelve">
+            </div>
 
-            <!-- form -->
-            <form name="contactForm" id="contactForm" method="post">
-      			
+            <div class="ten columns">
 
-                  <div class="form-field animate-this">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field animate-this">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field animate-this">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field animate-this">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div> 
+                  <p class="lead">You can contact me with the provided details.
+                  </p>
 
-                  <div class="form-field animate-this">
-                     <button class="submitform">Submit</button>
+            </div>
 
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
-							</div>
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
                   </div>
 
-      			
-      		</form> <!-- Form End -->
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
 
-            <!-- contact-warning -->
-            <div id="message-warning"></div> 
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
 
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
 
-         </div> <!-- end col-twelve -->   		
-   	</div> <!-- end row contact-form -->
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
 
-   		<div class="col-four tab-full collapse">
-   			<h5 class="animate-this">Email Me At</h5>
+					</fieldset>
+				   </form> <!-- Form End -->
 
-   			<p class="animate-this">
-			   	sakshijain908@gmail.com		     
-			   </p>
-   		</div> <!-- end col-four -->
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
 
-   		<div class="col-four tab-full">
-   			<h5 class="animate-this">Call Me At</h5>
-
-   			<p class="animate-this">
-   				Phone: 9711508825<br>
-			   	
-			   </p>
-   		</div> <!-- end col-four -->
-   		
-   	</div> <!-- end row contact-info -->
-		
-	</section> <!-- end contact -->
+            </div>
 
 
-	<!-- footer
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Sakshi Jain<br>
+						   Vivek Vihar, New Delhi <br>
+						   Delhi -110095, India<br>
+						   <span>9711508825</span>
+					   </p>
+
+				   </div>
+
+               
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
    ================================================== -->
-	<footer>
-     	<div class="row">
+   <footer>
 
-     		<div class="col-twelve tab-full social">
-     			<ul class="footer-social">        
-			      <li><a href="https://www.facebook.com/ShWeEtSaKsHi?ref=br_rs">Facebook</a></li>
-			      <li><a href="https://twitter.com/saaaaakshi">Twitter</a></li>
-			      <li><a href="https://www.linkedin.com/in/sakshi-jain-4a942b12b/">LinkedIn</a></li>
-			      <li><a href="https://www.instagram.com/sakshi13897/">Instagram</a></li>
-			   </ul> 	      		
-	      </div>
+      <div class="row">
 
-      	<div class="col-twelve tab-full">
-	      	<div class="copyright">
-		        	<span>© Copyright Howdy 2016.</span> 		        	         	
-		      </div>		                  
-	      </div>      	
+         <div class="twelve columns">
 
-      </div> <!-- end row -->
+            <ul class="social-links">
 
-      <div id="go-top">
-		   <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-UpArrow"></i></a>
-		</div>		
-   </footer>
+	       <li><a href="https://www.facebook.com/ShWeEtSaKsHi?ref=br_rs"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/saaaaakshi"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://plus.google.com/u/0/105948662408477774898"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/sakshi-jain-4a942b12b/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/sakshi13897/"><i class="fa fa-instagram"></i></a></li>
+	       <li><a href="http://github.com/sakshi13897"><i class="fa fa-github"></i></a></li>
+            </ul>
 
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
 
    <!-- Java Script
-   ================================================== --> 
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
 
